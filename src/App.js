@@ -1,9 +1,30 @@
-import React, { Component } from "react"
+import React from "react"
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom"
 import "./App.css"
+import Header from "./Header"
+import Banner from "./Banner"
+import Footer from "./Footer"
 
-class App extends Component {
+class App extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+
+    }
+  }
+
+  componentDidMount(){
+
+  }
+
   render() {
-    return <div className="App" />
+    return (
+      <Router>
+        <div className="App">
+          <Banner />
+        </div>
+      </Router>
+    )
   }
 }
 

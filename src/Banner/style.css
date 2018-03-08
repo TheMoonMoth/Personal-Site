@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+#construction {
+  background-color: #222222;
+  background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: COLUMN;
+  justify-content: center;
+  align-items: center;
+}
+
+#construction h2 {
+  font-size: 6rem;
+  color: #FF9900;
+  font-family: "Audiowide";
+  -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon5 1.5s ease-in-out infinite alternate;
+  animation: neon5 1.5s ease-in-out infinite alternate;
+}
+
+
+#construction h3 {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 3rem;
+}
+
+#construction h3 {
+  color: #FF9900;
+  font-family: "Audiowide";
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+}
+
+#contact p {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-size: 2rem;
+}
+
+#contact a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 2rem;
+}
+
+#contact p a {
+  color: orange;
+  font-family: Monoton;
+  -webkit-animation: neon5 2.5s ease-in-out infinite alternate;
+  -moz-animation: neon5 2.5s ease-in-out infinite alternate;
+  animation: neon5 2.5s ease-in-out infinite alternate;
+}
+
+#contact p a:hover {
+  color: orange;
+  font-family: Monoton;
+  -webkit-animation: neon1 .5s ease-in-out infinite alternate;
+  -moz-animation: neon1 .5s ease-in-out infinite alternate;
+  animation: neon1 .5s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF7A7A, 0 0 70px #FF7A7A, 0 0 80px #FF7A7A, 0 0 100px #FF7A7A, 0 0 150px #FF7A7A;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF7A7A, 0 0 35px #FF7A7A, 0 0 40px #FF7A7A, 0 0 50px #FF7A7A, 0 0 75px #FF7A7A;
+  }
+}
+
+@-webkit-keyframes neon5 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+  }
+}
