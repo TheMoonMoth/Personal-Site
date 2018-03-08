@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom"
 import "./App.css"
 import Header from "./Header"
-import Banner from "./Banner"
+import Banner from "./UnderConstruction"
 import Footer from "./Footer"
 
 class App extends React.Component {
