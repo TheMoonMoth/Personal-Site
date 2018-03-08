@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Redirect } from "react-router-dom"
 import "./App.css"
 import Header from "./Header"
 import Banner from "./UnderConstruction"
+import Projects from "./Projects"
 import Footer from "./Footer"
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Banner />
+          <Projects />
         </div>
       </Router>
     )
