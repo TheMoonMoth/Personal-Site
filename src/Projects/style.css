@@ -1,4 +1,29 @@
-#content {
-  height: 100vh;
-  border: 2px solid white;
+#projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects-section h2 {
+  font-family: Audiowide;
+  font-size: 2rem;
+}
+
+#projects-section {
+  background-image: url("../arrows.jpg");
+  background-size: auto;
+}
+
+#projects-section section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects-section section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

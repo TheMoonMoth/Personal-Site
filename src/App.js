@@ -23,7 +23,6 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Banner />
-          <Projects />
         </div>
       </Router>
     )
