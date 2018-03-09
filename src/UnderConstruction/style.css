@@ -14,15 +14,20 @@
 
 #construction h2 {
   font-size: 6rem;
-  color: #FF9900;
+  color: #00DAFF;
   font-family: "Audiowide";
-  -webkit-animation: neon5 3.5s ease-in-out infinite alternate;
-  -moz-animation: neon5 3.5s ease-in-out infinite alternate;
-  animation: neon5 3.5s ease-in-out infinite alternate;
+  -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
+  -moz-animation: neon6 3.5s ease-in-out infinite alternate;
+  animation: neon6 3.5s ease-in-out infinite alternate;
 }
+
+/*nice red #9F0800*/
 
 
 #construction h3 {
+  margin-top: 10px;
+  color: #9F0800;
+  font-family: "Audiowide";
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -30,10 +35,6 @@
   font-size: 3rem;
 }
 
-#construction h3 {
-  color: #FF9900;
-  font-family: "Audiowide";
-}
 
 #contact {
   display: flex;
@@ -57,16 +58,16 @@
 }
 
 #contact p a {
-  color: orange;
-  font-family: Monoton;
-  -webkit-animation: neon5 3.5s ease-in-out infinite alternate;
-  -moz-animation: neon5 3.5s ease-in-out infinite alternate;
-  animation: neon5 3.5s ease-in-out infinite alternate;
+  color: #00DAFF;
+  font-family: Audiowide;
+  -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
+  -moz-animation: neon6 3.5s ease-in-out infinite alternate;
+  animation: neon6 3.5s ease-in-out infinite alternate;
 }
 
 #contact p a:hover {
-  color: orange;
-  font-family: Monoton;
+  color: #00DAFF;
+  font-family: Audiowide;
   -webkit-animation: neon1 .3s ease-in-out infinite alternate;
   -moz-animation: neon1 .3s ease-in-out infinite alternate;
   animation: neon1 .3s ease-in-out infinite alternate;
@@ -75,18 +76,27 @@
 
 @-webkit-keyframes neon1 {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF7A7A, 0 0 70px #FF7A7A, 0 0 80px #FF7A7A, 0 0 100px #FF7A7A, 0 0 150px #FF7A7A;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #9F0800, 0 0 70px #9F0800, 0 0 80px #9F0800, 0 0 100px #9F0800, 0 0 150px #9F0800;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF7A7A, 0 0 35px #FF7A7A, 0 0 40px #FF7A7A, 0 0 50px #FF7A7A, 0 0 75px #FF7A7A;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #9F0800, 0 0 35px #9F0800, 0 0 40px #9F0800, 0 0 50px #9F0800, 0 0 75px #9F0800;
   }
 }
 
 @-webkit-keyframes neon5 {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF9900, 0 0 70px #FF9900, 0 0 80px #FF9900, 0 0 100px #FF9900, 0 0 150px #FF9900;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF9900, 0 0 35px #FF9900, 0 0 40px #FF9900, 0 0 50px #FF9900, 0 0 75px #FF9900;
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #fff, 0 0 10px #FF9900, 0 0 17px #FF9900, 0 0 20px #FF9900, 0 0 25px #FF9900, 0 0 37px #FF9900;
+  }
+}
+
+@-webkit-keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #0000A4, 0 0 20px #0000A4, 0 0 30px #0000A4, 0 0 40px #00016B, 0 0 70px #00016B, 0 0 80px #00016B, 0 0 100px #00016B, 0 0 150px #00016B;
+  }
+  to {
+    text-shadow: 0 0 5px #0000A4, 0 0 10px #0000A4, 0 0 15px #0000A4, 0 0 20px #00016B, 0 0 35px #00016B, 0 0 40px #00016B, 0 0 50px #00016B, 0 0 75px #00016B;
   }
 }
