@@ -5,6 +5,7 @@ import Header from "./Header"
 import Banner from "./UnderConstruction"
 import Projects from "./Projects"
 import Footer from "./Footer"
+import Filler from "./Filler"
 
 class App extends React.Component {
   constructor(props){
@@ -22,7 +23,8 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-          <Banner />
+          <Header />
+          <Filler />
         </div>
       </Router>
     )
