@@ -2,3 +2,8 @@ html {
   background-color: hsl(0,0%,2%);
   color: white
 }
+
+/*
+@media (min-width: 30em) and (orientation: landscape) { ... }
+@media screen and (min-width: 30em) and (orientation: landscape) { ... }
+*/
