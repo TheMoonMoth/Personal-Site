@@ -1,6 +1,6 @@
 import React from "react"
 import Headroom from "react-headroom"
-import "./style.css"
+import "./style2.css"
 
 const Header = props => {
   return (
