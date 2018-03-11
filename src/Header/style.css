@@ -2,16 +2,28 @@
 @import url("https://fonts.googleapis.com/css?family=Audiowide");
 @import url("https://fonts.googleapis.com/css?family=Monoton");
 
+/*
+repeating-linear-gradient(
+    45deg,
+    #222222 0%,
+    #222222 10%,
+    #141414 0%,
+    #141414 50%
+  )
+  0 / 15px 15px
+*/
+
 @media (max-width: 740px) {
   #live-header {
     background: repeating-linear-gradient(
-        45deg,
-        #222222 0%,
-        #222222 10%,
-        #141414 0%,
-        #141414 50%
-      )
-      0 / 15px 15px;
+      45deg,
+      hsl(0,0%,0%) 0%,
+      hsl(0,0%,10%) 32%,
+      hsl(0,0%,50%) 42%,
+      hsl(0,0%,20%) 42%,
+      hsl(0,0%,5%) 52%,
+      hsl(0,0%,5%) 100%
+      );
     width: 100%;
     height: 90px;
     display: flex;
@@ -21,7 +33,6 @@
   }
 
   #live-header h2 {
-    padding-top: 10px;
     font-size: 2rem;
     color: #00daff;
     font-family: "Audiowide";
@@ -31,16 +42,28 @@
     text-align: center;
   }
 
+  #live-header h3 {
+    padding-bottom: 5px;
+    color: #00daff;
+    font-family: "Audiowide";
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
   #nav {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    padding-top: 5px;
     align-self: center;
   }
 
   #nav p {
     text-align: center;
-    margin: 20px 0 20px 0;
     font-size: .5rem;
   }
 
@@ -49,7 +72,7 @@
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-    font-size: 1rem;
+    font-size: .7rem;
   }
 
   #nav p a {

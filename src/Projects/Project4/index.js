@@ -2,9 +2,10 @@ import React from "react"
 
 const Proj4 = (props) => {
   return(
-    <section>
+    <section className="project-slide">
       <h3>Weredar</h3>
       <div>
+        <img src="http://via.placeholder.com/800x500" alt="weredar home page"/>
         <p>
           This is expository text. <br/>
           This is expository text. <br/>
@@ -12,7 +13,6 @@ const Proj4 = (props) => {
           This is expository text. <br/>
           This is expository text. <br/>
         </p>
-        <img src="http://via.placeholder.com/800x500"/>
       </div>
     </section>
   )

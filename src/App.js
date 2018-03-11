@@ -24,7 +24,7 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Header />
-          <Filler />
+          <Projects />
         </div>
       </Router>
     )

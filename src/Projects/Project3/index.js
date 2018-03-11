@@ -2,7 +2,7 @@ import React from "react"
 
 const Proj3 = (props) => {
   return(
-    <section>
+    <section className="project-slide">
       <h3>Absense</h3>
       <div>
         <img src="http://via.placeholder.com/800x500"/>

@@ -1,18 +1,28 @@
 import React from "react"
 
-const Proj1 = (props) => {
-  return(
-    <section>
-      <h3>Planet Wager</h3>
+const Proj1 = props => {
+  return (
+    <section className="project-slide">
+      <img id="pw-logo"src="./images/PlanetWagerLogo.png" alt="Planet Wager Logo" />
       <div>
-        <img src="http://via.placeholder.com/800x500"/>
+        <div className="screens">
+          <img src="./images/ss1.png" alt="Planet Wager - screen" />
+          <img src="./images/ss2.png" alt="Planet Wager - screen" />
+        </div>
+        <h4>ABOUT</h4>
         <p>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
+          Planet Wager offers a platform to make bets with your friends!
+          How many Spacebucks can you accumulate? This app was developed with
+          Agile workflow values and a small dedicated team.
         </p>
+        <p>&nbsp;</p>
+        <h5>BUILT WITH:</h5>
+        <ul>
+          <li>React</li>
+          <li>PostgresQL</li>
+          <li>Express</li>
+          <li>Node.js</li>
+        </ul>
       </div>
     </section>
   )

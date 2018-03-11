@@ -3,16 +3,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: repeating-linear-gradient(
+      45deg,
+      #01072E 0%,
+      #01072E 10%,
+      #000312 0%,
+      #000312 50%
+    )
+    0 / 15px 15px;
 }
 
 #projects-section h2 {
   font-family: Audiowide;
   font-size: 2rem;
-}
-
-#projects-section {
-  background-image: url("../arrows.jpg");
-  background-size: auto;
+  margin: 10px 0;
+  color: #00daff;
+  text-decoration: underline;
 }
 
 #projects-section section div {
@@ -26,4 +32,84 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 740px) {
+  .project-slide {
+    width: 100%;
+    margin-top: 15px;
+    border-bottom: 1px solid yellow;
+  }
+
+  .project-slide img #pw-logo {
+    margin-bottom: 10px;
+  }
+
+
+  .project-slide img {
+    margin-bottom: 10px;
+    width: 49%;
+  }
+
+  .project-slide img:first-child {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .project-slide .screens {
+    display: flex;
+    flex-direction: row;
+    box-shadow:
+      15px 0 35px -20px #0061D6,
+      -15px 0 35px -20px #0061D6;
+  }
+
+  .project-slide div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-slide h4 {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-family: Audiowide;
+    color: #00daff;
+    text-align: center;
+  }
+
+  .project-slide h5 {
+    text-decoration: underline;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: Audiowide;
+    color: #00daff;
+    text-align: center;
+  }
+
+  .project-slide p {
+    font-family: Audiowide;
+    font-size: .9rem;
+    letter-spacing: .7px;
+    color: #00daff;
+    text-align: center;
+  }
+
+  @-webkit-keyframes neon7 {
+    from {
+      box-shadow:
+        15px 0 25px -10px #0061D6,
+        25px 0 35px -20px #0061D6,
+        -15px 0 25px -10px #0061D6,
+        -25px 0 35px -20px #0061D6;
+    }
+    to {
+      box-shadow:
+        15px 0 25px -10px #0061D6,
+        0,
+        -15px 0 25px -10px #0061D6,
+        0;
+    }
+  }
 }

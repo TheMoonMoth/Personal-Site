@@ -10,10 +10,10 @@ class Projects extends React.Component {
     return (
       <div id="projects-section">
         <h2>Projects</h2>
-        <Proj1 className="project-slide" id="p-1" />
-        <Proj2 className="project-slide" id="p-2" />
-        <Proj3 className="project-slide" id="p-3" />
-        <Proj4 className="project-slide" id="p-4" />
+        <Proj1 id="p-1" />
+        <Proj2 id="p-2" />
+        <Proj3 id="p-3" />
+        <Proj4 id="p-4" />
       </div>
     )
   }
