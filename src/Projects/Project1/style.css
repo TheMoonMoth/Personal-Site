@@ -1,6 +1,6 @@
 @media (max-width: 740px) {
-  .project-slide img {
-    margin: 15px 10px 30px 10px;
+  .project-slide img#pw-logo {
+    margin: 15px 10px 15px 10px;
     width: 85%;
   }
 

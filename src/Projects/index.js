@@ -11,6 +11,8 @@ class Projects extends React.Component {
       <div id="projects-section">
         <h2>Projects</h2>
         <Proj1 />
+        <Proj2 />
+        <Proj3 />
       </div>
     )
   }

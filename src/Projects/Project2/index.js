@@ -3,17 +3,10 @@ import React from "react"
 const Proj2 = (props) => {
   return(
     <section className="project-slide">
-      <h3>Six Word Stories</h3>
       <div>
-        <img src="http://via.placeholder.com/800x500"/>
-        <p>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-        </p>
+        <img id="sws-logo" style={{width: 70 + "%", paddingBottom: 25 + "px"}} src="./images/sws-logo.png" alt="Six Word Stories logo"/>
       </div>
+      <h3>▼</h3>
     </section>
   )
 }

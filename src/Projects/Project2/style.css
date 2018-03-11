@@ -1,0 +1,6 @@
+@media (max-width: 740px) {
+  .project-slide div img #sws-logo {
+    border: 2px solid yellow;
+    width: 20%;
+  }
+}

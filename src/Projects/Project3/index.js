@@ -3,17 +3,11 @@ import React from "react"
 const Proj3 = (props) => {
   return(
     <section className="project-slide">
-      <h3>Absense</h3>
       <div>
-        <img src="http://via.placeholder.com/800x500"/>
-        <p>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-          This is expository text. <br/>
-        </p>
+        <img id="abs-logo" style={{width: 45 + "%", paddingBottom: 20 + "px"}} src="./images/abs-logo.png" alt="Absense Logo"/>
       </div>
+
+      <h3>▼</h3>
     </section>
   )
 }
