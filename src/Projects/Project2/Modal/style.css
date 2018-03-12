@@ -1,40 +1,20 @@
 @media (max-width: 740px) {
-  .project-slide {
-    width: 100%;
-    margin-top: 15px;
-    border-bottom: 1px solid yellow;
-  }
-
-  .project-slide img #pw-logo {
-    margin-bottom: 10px;
-  }
-
-
-  .project-slide img {
-    margin-bottom: 10px;
-    width: 49%;
-  }
-
-  .project-slide img:first-child {
-    margin-bottom: 10px;
-    margin-right: 10px;
-  }
-
-  .project-slide .screens {
-    display: flex;
-    flex-direction: row;
-    box-shadow:
-      15px 0 35px -20px #0061D6,
-      -15px 0 35px -20px #0061D6;
-  }
-
-  .project-slide div {
-    width: 300px;
+  .ReactCollapse--collapse #swsInfo {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0px auto 20px auto;
+    width: 90%;
   }
 
-  .project-slide h4 {
+  .ReactCollapse--collapse #swsInfo img {
+    margin: 20px 0 20px 20px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgba(100, 255, 100, 0.1);
+  }
+
+  .ReactCollapse--collapse #swsInfo h4 {
     text-decoration: underline;
     font-size: 1.3rem;
     margin-bottom: 10px;
@@ -43,7 +23,7 @@
     text-align: center;
   }
 
-  .project-slide h5 {
+  .ReactCollapse--collapse #swsInfo h5 {
     text-decoration: underline;
     font-size: 1.1rem;
     margin-bottom: 10px;
@@ -52,28 +32,31 @@
     text-align: center;
   }
 
-  .project-slide p {
+  .ReactCollapse--collapse #swsInfo p {
     font-family: Audiowide;
-    font-size: .9rem;
-    letter-spacing: .7px;
+    font-size: 0.9rem;
+    letter-spacing: 0.7px;
     color: #00daff;
     text-align: center;
+    margin: 0 10px;
   }
 
-  @-webkit-keyframes neon7 {
-    from {
-      box-shadow:
-        15px 0 25px -10px #0061D6,
-        25px 0 35px -20px #0061D6,
-        -15px 0 25px -10px #0061D6,
-        -25px 0 35px -20px #0061D6;
-    }
-    to {
-      box-shadow:
-        15px 0 25px -10px #0061D6,
-        0,
-        -15px 0 25px -10px #0061D6,
-        0;
-    }
+  .ReactCollapse--collapse #swsInfo ul {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 45px;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 35px;
+
+    font-family: Audiowide;
+    font-size: 0.9rem;
+    letter-spacing: 0.7px;
+    color: #00daff;
+    text-align: center;
+    margin: 0 10px;
   }
 }

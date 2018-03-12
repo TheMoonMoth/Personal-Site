@@ -9,7 +9,7 @@ class Proj1 extends React.Component {
   constructor(props){
     super(props)
     this.state ={
-      isOpened: true,
+      isOpened: this.props.status,
     }
   }
 

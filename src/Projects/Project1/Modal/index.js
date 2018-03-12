@@ -5,8 +5,8 @@ const PwModal = props => {
   return (
     <div id="pwInfo">
       <div className="screens">
-        <img src="./images/ss1.png" alt="Planet Wager - screen" />
-        <img src="./images/ss2.png" alt="Planet Wager - screen" />
+        <img src="./images/pw1.png" alt="Planet Wager - screen" />
+        <img src="./images/pw2.png" alt="Planet Wager - screen" />
       </div>
       <h4>ABOUT</h4>
       <p>
