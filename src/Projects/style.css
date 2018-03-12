@@ -18,7 +18,10 @@
   font-family: Audiowide;
   font-size: 2rem;
   margin: 10px 0 20px 0;
-  color: #00daff;
+  color: #5CFB51;
+  -webkit-animation: neon7 3.5s ease-in-out infinite alternate;
+  -moz-animation: neon7 3.5s ease-in-out infinite alternate;
+  animation: neon7 3.5s ease-in-out infinite alternate;
   text-decoration: underline;
 }
 

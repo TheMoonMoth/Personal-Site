@@ -43,15 +43,13 @@ repeating-linear-gradient(
   }
 
   #live-header h3 {
-    padding-bottom: 5px;
-    color: #00daff;
+    padding: 5px 0;
+    color: #5CFB51;
     font-family: "Audiowide";
     text-decoration: none;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
     font-size: 1.1rem;
     text-align: center;
+    text-decoration: underline;
   }
 
   #nav {
