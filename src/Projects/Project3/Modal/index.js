@@ -1,20 +1,34 @@
-<div>
-  <div className="screens">
-    <img src="./images/ss1.png" alt="Planet Wager - screen" />
-    <img src="./images/ss2.png" alt="Planet Wager - screen" />
-  </div>
-  <h4>ABOUT</h4>
-  <p>
-    Planet Wager offers a platform to make bets with your friends!
-    How many Spacebucks can you accumulate? This app was developed with
-    Agile workflow values and a small dedicated team.
-  </p>
-  <p>&nbsp;</p>
-  <h5>BUILT WITH:</h5>
-  <ul>
-    <li>React</li>
-    <li>PostgresQL</li>
-    <li>Express</li>
-    <li>Node.js</li>
-  </ul>
-</div>
+import React from "react"
+import "./style.css"
+
+const AbsModal = props => {
+  return (
+    <div id="absInfo">
+      <div className="screens">
+        <img src="./images/abs1.png" alt="Absense main screen" />
+        <h4>ABOUT</h4>
+        <p>
+          AbSense was made to simplify the absence reporting process.
+          Rather than having parents call your school and hoping that the voice
+          message makes its way to the right paper copy file,
+          AbSense digitally archives all submitted reports and make them easily
+          accessible to administrators and families.
+        </p>
+      </div>
+      <p>&nbsp;</p>
+      <h5>BUILT WITH:</h5>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Express</li>
+        <li>Node.js</li>
+      </ul>
+      <aside id="links">
+        <a target="_blank" rel="noopener noreferrer" href="https://absense-671c0.firebaseapp.com/">AbSense.com</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheMoonMoth/AbSense">GITHUB</a>
+      </aside>
+    </div>
+  )
+}
+
+export default AbsModal

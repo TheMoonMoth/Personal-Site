@@ -3,7 +3,7 @@ import Collapse from "react-collapse"
 import PwModal from "./Modal"
 import "./style.css"
 
-class Proj1 extends React.Component {
+class Proj2 extends React.Component {
   constructor(props){
     super(props)
     this.state ={
@@ -38,4 +38,4 @@ class Proj1 extends React.Component {
   // }
 }
 
-export default Proj1
+export default Proj2
