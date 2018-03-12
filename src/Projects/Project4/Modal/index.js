@@ -8,11 +8,8 @@ const WereModal = props => {
         <img src="./images/were1.png" alt="Weredar main screen" />
         <h4>ABOUT</h4>
         <p>
-          AbSense was made to simplify the absence reporting process.
-          Rather than having parents call your school and hoping that the voice
-          message makes its way to the right paper copy file,
-          AbSense digitally archives all submitted reports and make them easily
-          accessible to administrators and families.
+        Here at WEREdar we are committed to protecting your community from the curse of the lycan. <br/><br/>
+        Created as part of an eight hour hack-a-thon, this team project brought APIs, creative programmers, and fantasy together.
         </p>
       </div>
       <p>&nbsp;</p>
@@ -24,8 +21,8 @@ const WereModal = props => {
         <li>Node.js</li>
       </ul>
       <aside id="links">
-        <a target="_blank" rel="noopener noreferrer" href="https://absense-671c0.firebaseapp.com/">AbSense.com</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheMoonMoth/AbSense">GITHUB</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://weredar-1.firebaseapp.com/">Weredar.com</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheMoonMoth/Were.com--Frontend">GITHUB</a>
       </aside>
     </div>
   )
