@@ -20,7 +20,7 @@ class Projects extends React.Component {
     return (
       <div id="projects-section">
         <a name="projects"></a>
-        <h2>Projects</h2>
+        <h2>PROJECTS</h2>
         <Proj1 status={this.state.pwInfo} />
         <Proj2 status={this.state.swsInfo} />
         <Proj3 status={this.state.absInfo} />

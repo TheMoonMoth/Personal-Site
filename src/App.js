@@ -6,6 +6,7 @@ import Header from "./Header"
 import Projects from "./Projects"
 // import Footer from "./Footer"
 import Filler from "./Filler"
+import Resume from "./Resume"
 
 class App extends React.Component {
   constructor(props){
@@ -25,6 +26,7 @@ class App extends React.Component {
         <div className="App">
           <Header />
           <Projects />
+          <Resume />
         </div>
       </Router>
     )
