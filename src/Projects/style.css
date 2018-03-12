@@ -1,6 +1,5 @@
 #projects-section {
   display: flex;
-  height: 80vh;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -34,6 +33,10 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
+}
+
+.collapser {
+  border: 2px solid green;
 }
 
 @-webkit-keyframes neon8 {
