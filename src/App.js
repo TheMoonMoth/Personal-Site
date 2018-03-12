@@ -7,6 +7,7 @@ import Projects from "./Projects"
 // import Footer from "./Footer"
 import Filler from "./Filler"
 import Resume from "./Resume"
+import About from "./About"
 
 class App extends React.Component {
   constructor(props){
@@ -25,6 +26,7 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Header />
+          <About />
           <Projects />
           <Resume />
         </div>

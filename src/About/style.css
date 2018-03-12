@@ -1,0 +1,29 @@
+@media (max-width: 740px) {
+  #about-page {
+    height: 100vh;
+    background-image:
+      url("../synth-city.jpg"),
+      linear-gradient(
+        85deg,
+        rgba(47,0,93, 1) 0%,
+        rgba(47,0,93, .5) 2%,
+        rgba(47,0,93, 0) 15%,
+        rgba(0,0,0,0) 100%
+      ),
+      linear-gradient(
+        270deg,
+        rgba(40,0,83, 1) 0%,
+        rgba(40,0,83, .5) 0%,
+        rgba(40,0,83, 0) 5%,
+        rgba(0,0,0,0) 100%
+      ),
+      linear-gradient(
+        360deg,
+        rgba(21,0,70, 1) 0%,
+        rgba(21,0,70, 1) 60%,
+        rgba(11,0,10, 9) 100%
+      );
+    background-position:bottom;
+    background-repeat: no-repeat;
+  }
+}
