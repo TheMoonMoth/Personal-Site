@@ -5,7 +5,7 @@ import Header from "./Header"
 // import Banner from "./UnderConstruction"
 import Projects from "./Projects"
 // import Footer from "./Footer"
-// import Filler from "./Filler"
+import Filler from "./Filler"
 
 class App extends React.Component {
   constructor(props){
@@ -24,7 +24,6 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <Header />
-          <Projects />
           <Projects />
         </div>
       </Router>

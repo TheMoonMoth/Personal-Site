@@ -59,4 +59,19 @@
     text-align: center;
     margin: 0 10px;
   }
+
+  .ReactCollapse--collapse #pwInfo #links {
+    width: 90%;
+    padding: 25px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ReactCollapse--collapse #pwInfo #links a {
+    color: #00daff;
+    font-family: Audiowide;
+    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
+    animation: neon6 3.5s ease-in-out infinite alternate;
+  }
 }

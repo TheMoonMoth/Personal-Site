@@ -1,7 +1,5 @@
 import React from "react"
-import {presets} from "react-motion"
 import Collapse from "react-collapse"
-import {UnmountClosed} from "react-collapse"
 import PwModal from "./Modal"
 import "./style.css"
 

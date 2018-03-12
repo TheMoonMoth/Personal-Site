@@ -22,6 +22,10 @@ const PwModal = props => {
         <li>Express</li>
         <li>Node.js</li>
       </ul>
+      <aside id="links">
+        <a target="_blank" rel="noopener noreferrer" href="https://planetwager.herokuapp.com/">PlanetWager.com</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/themoonmoth/space-betting">GITHUB</a>
+      </aside>
     </div>
   )
 }

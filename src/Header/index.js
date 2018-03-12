@@ -14,10 +14,10 @@ const Header = props => {
       </h2>
       <h3>FULL STACK DEVELOPER</h3>
       <nav id="nav">
-        <p><a rel="noopener noreferrer" target="_blank" href="https://GITHUB.com/themoonmoth">PROJECTS</a></p>
-        <p><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/moonm0th">RESUME</a></p>
-        <p><a rel="noopener noreferrer" target="_blank" href="https://linkedin.com/in/kyleweintraub">ABOUT</a></p>
-        <p><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/moonm0th">CONTACT</a></p>
+        <p><a href="#projects">PROJECTS</a></p>
+        <p><a href="#resume">RESUME</a></p>
+        <p><a href="#about">ABOUT</a></p>
+        <p><a href="#contact">CONTACT</a></p>
       </nav>
     </div>
     </Headroom>

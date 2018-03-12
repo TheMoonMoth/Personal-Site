@@ -5,15 +5,16 @@ const SwsModal = props => {
   return (
     <div id="swsInfo">
       <div className="screens">
-        <img src="./images/ss1.png" alt="Planet Wager - screen" />
-        <img src="./images/ss2.png" alt="Planet Wager - screen" />
+        <img src="./images/sws1.png" alt="Six Word Stories main screen" />
+        <h4>ABOUT</h4>
+        <p>
+          This app allows users to read and write six word stories. Each story
+          gets processed by the sentiment.js algorithm and then assigned
+          emotional value, displayed below the story. Users can then vote on
+          stories and maybe find the next Ernest Hemingway!
+        </p>
+        <img src="./images/sws2.png" alt="Six Word Stories new story screen" />
       </div>
-      <h4>ABOUT</h4>
-      <p>
-        Planet Wager offers a platform to make bets with your friends! How many
-        Spacebucks can you accumulate? This app was developed with Agile
-        workflow values and a small dedicated team.
-      </p>
       <p>&nbsp;</p>
       <h5>BUILT WITH:</h5>
       <ul>
@@ -22,6 +23,10 @@ const SwsModal = props => {
         <li>Express</li>
         <li>Node.js</li>
       </ul>
+      <aside id="links">
+        <a target="_blank" rel="noopener noreferrer" href="https://sixwordstories.herokuapp.com/">SixWordStories.com</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/themoonmoth/sixwordstories">GITHUB</a>
+      </aside>
     </div>
   )
 }

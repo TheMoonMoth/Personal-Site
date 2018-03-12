@@ -7,9 +7,15 @@
     width: 90%;
   }
 
+  .ReactCollapse--collapse #swsInfo .screens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .ReactCollapse--collapse #swsInfo img {
     margin: 20px 0 20px 20px;
-    width: 40%;
+    width: 90%;
     border-radius: 10px;
     background-color: rgba(100, 255, 100, 0.1);
   }
@@ -58,5 +64,20 @@
     color: #00daff;
     text-align: center;
     margin: 0 10px;
+  }
+
+  .ReactCollapse--collapse #swsInfo #links {
+    width: 90%;
+    padding: 25px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ReactCollapse--collapse #swsInfo #links a {
+    color: #00daff;
+    font-family: Audiowide;
+    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
+    animation: neon6 3.5s ease-in-out infinite alternate;
   }
 }

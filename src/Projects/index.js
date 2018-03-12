@@ -19,6 +19,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div id="projects-section">
+        <a name="projects"></a>
         <h2>Projects</h2>
         <Proj1 status={this.state.pwInfo} />
         <Proj2 status={this.state.swsInfo} />
