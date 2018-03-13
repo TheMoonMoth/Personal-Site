@@ -16,12 +16,12 @@ repeating-linear-gradient(
 @media (max-width: 740px) {
   #live-header {
     background: repeating-linear-gradient(
-      45deg,
+      65deg,
       hsl(0,0%,0%) 0%,
-      hsl(0,0%,10%) 32%,
-      hsl(0,0%,50%) 42%,
-      hsl(0,0%,20%) 42%,
-      hsl(0,0%,5%) 52%,
+      hsl(0,0%,10%) 27%,
+      hsl(0,0%,50%) 37%,
+      hsl(0,0%,20%) 37%,
+      hsl(0,0%,5%) 67%,
       hsl(0,0%,5%) 100%
       );
     width: 100%;

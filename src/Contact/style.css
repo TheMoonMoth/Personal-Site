@@ -16,11 +16,8 @@
   footer h2 {
     font-size: 1.8rem;
     padding: 20px 0 15px 0;
-    color: #00daff;
+    color: #000B8F;
     font-family: "Audiowide";
-    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
-    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
-    animation: neon6 3.5s ease-in-out infinite alternate;
     text-align: center;
   }
 

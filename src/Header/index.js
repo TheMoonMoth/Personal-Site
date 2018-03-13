@@ -12,7 +12,6 @@ const Header = props => {
       <h2>
         KYLE WEINTRAUB
       </h2>
-      <h3>FULL STACK DEVELOPER</h3>
       <nav id="nav">
         <p><a href="#projects">PROJECTS</a></p>
         <p><a href="#resume">RESUME</a></p>
