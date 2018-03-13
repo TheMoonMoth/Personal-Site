@@ -1,4 +1,4 @@
-/* @media (max-width: 740px) { */
+@media (max-width: 740px) {
   #about-page {
     height: 100vh;
     background-image:
@@ -11,5 +11,5 @@
     background-size: contain;
     background-position:bottom;
     background-repeat: no-repeat;
-  /* } */
+  }
 }

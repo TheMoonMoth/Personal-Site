@@ -8,9 +8,13 @@
         #E5E5E5 50%
       )
       0 / 15px 15px;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
   }
+
   footer h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 20px 0 15px 0;
     color: #00daff;
     font-family: "Audiowide";
@@ -21,18 +25,25 @@
   }
 
   footer nav {
-    width: 90%;
+    width: 80%;
     display: flex;
-    padding: 10px 20px 40px 20px;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    padding: 18px 20px 15px 20px;
+    margin-bottom: 30px;
+    background:
+      linear-gradient(
+        90deg,
+        hsla(0,0%,40%, 0) 0%,
+        hsla(0,0%,40%, 1) 10%,
+        hsla(0,0%,40%, 1) 90%,
+        hsla(0,0%,40%, 0) 100%
+      );
   }
 
   footer nav img {
-    width: 40px;
-    text-shadow: 0 0 10px 10px white;
+    width: 30px;
     filter: brightness(0);
-    -webkit-animation: neon10 3.5s ease-in-out infinite alternate;
-    -moz-animation: neon10 3.5s ease-in-out infinite alternate;
-    animation: neon10 3.5s ease-in-out infinite alternate;
   }
 }
