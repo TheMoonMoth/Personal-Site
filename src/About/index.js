@@ -5,19 +5,27 @@ const About = props => {
   return (
     <div id="about-page">
       <section>
-        <h3>I am a Web Developer.</h3>
+        <h3>I AM A WEB DEVELOPER</h3>
         <ul>
           <li>I build wild new apps.</li>
+          <li>I thrive on new ideas.</li>
           <li>I aspire to find the newest, coolest tech.</li>
-          <li>I </li>
+          <li>Teamwork <em>does</em> make the dream work.</li>
         </ul>
 
-        <h3>I am a Learner.</h3>
-        <p>
-          I try to learn new things everyday.
-          The world is filled with things I do not know.
+        <h3>I AM A LEARNER</h3>
+        <ul>
+          <li>I try to learn new things everyday.</li>
+          <li>I thive on the worlds endless puzzles.</li>
 
-        </p>
+        </ul>
+
+        <h3>I AM READY TO WORK WITH YOU</h3>
+        <ul>
+          <li>I have an expanding knowledge of new technologies and old ones.</li>
+          <li></li>
+
+        </ul>
       </section>
     </div>
   )

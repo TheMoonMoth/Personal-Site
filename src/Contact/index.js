@@ -4,6 +4,7 @@ import "./style.css"
 const Contact = props => {
   return (
     <footer>
+      <a name="contact" id="resume-link"> </a>
       <h2>CONTACT</h2>
       <nav>
         <a href="https://github.com/TheMoonMoth">

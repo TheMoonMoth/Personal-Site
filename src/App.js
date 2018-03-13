@@ -25,6 +25,7 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
+        <a name="about" id="resume-link"> </a>
           <Header />
           <About />
           <Projects />

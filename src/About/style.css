@@ -1,5 +1,7 @@
 @media (max-width: 740px) {
   #about-page {
+    color: #89FFD4;
+    padding: 40px 26px;
     height: 100vh;
     background-image:
       url("../denver_Skyline-mobile-blue.jpeg"),
@@ -15,21 +17,28 @@
     background-repeat: no-repeat;
   }
 
-  #about-page h2 {
-    font-size: 1.8rem;
-    padding: 20px 0 15px 0;
+  #about-page h3 {
+    width: 80%;
+    font-size: 1.5rem;
     color: #89FFB1;
     font-family: "Audiowide";
-    text-align: center;
-    text-decoration: underline;
   }
 
-  #about-page p {
-    color: #fff;
-    font-family: Audiowide;
-    font-size: 0.9rem;
-    letter-spacing: 0.7px;
-    text-align: center;
-    margin: 0 10px;
+  #about-page ul {
+    font-family: "Roboto Mono", serif;
+    font-size: .9rem;
+    letter-spacing: 0.5px;
+    border-left: 3px solid #89FFD4;
+    margin: 20px 0 20px 2px;
+    padding-bottom: 20px;
+  }
+
+  #about-page ul li {
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+
+  #about-page ul em {
+    font-style: italic;
   }
 }

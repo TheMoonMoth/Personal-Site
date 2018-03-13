@@ -49,6 +49,10 @@ table {
 
 /*End of Reset*/
 
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i');
+
 body {
   margin: 0;
   padding: 0;
