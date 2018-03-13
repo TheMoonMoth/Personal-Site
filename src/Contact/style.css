@@ -1,0 +1,38 @@
+@media (max-width: 740px) {
+  footer {
+    background: repeating-linear-gradient(
+        135deg,
+        #CFCFCF 0%,
+        #CFCFCF 10%,
+        #E5E5E5 0%,
+        #E5E5E5 50%
+      )
+      0 / 15px 15px;
+  }
+  footer h2 {
+    font-size: 2rem;
+    padding: 20px 0 15px 0;
+    color: #00daff;
+    font-family: "Audiowide";
+    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
+    animation: neon6 3.5s ease-in-out infinite alternate;
+    text-align: center;
+  }
+
+  footer nav {
+    width: 90%;
+    display: flex;
+    padding: 10px 20px 40px 20px;
+    justify-content: space-between;
+  }
+
+  footer nav img {
+    width: 40px;
+    text-shadow: 0 0 10px 10px white;
+    filter: brightness(0);
+    -webkit-animation: neon10 3.5s ease-in-out infinite alternate;
+    -moz-animation: neon10 3.5s ease-in-out infinite alternate;
+    animation: neon10 3.5s ease-in-out infinite alternate;
+  }
+}

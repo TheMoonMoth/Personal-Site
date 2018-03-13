@@ -4,7 +4,10 @@ import "./style.css"
 const About = (props) => {
   return(
     <div id="about-page">
-      <p>hi</p>
+      <h2>ABOUT KYLE</h2>
+      <p>
+        
+      </p>
     </div>
   )
 }
