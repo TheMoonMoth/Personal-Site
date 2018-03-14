@@ -42,3 +42,49 @@
     margin: 0 0;
   }
 }
+
+@media (min-width: 741px) {
+  #resume-box {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(1,1,53, 1) 0%,
+        rgba(1,1,53, 1) 20%,
+        rgba(68,113,184, 1) 70%,
+        rgba(104,128,184, 1) 80%,
+        rgba(104,128,184, 1) 90%
+        );
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #resume-box img{
+    width: 45%;
+  }
+
+  #resume-box h2 {
+    font-family: Audiowide;
+    font-size: 3rem;
+    margin: 25px 0 0 0;
+    color: #fff;
+    text-decoration: underline overline;
+  }
+
+  #resume-box a {
+    font-size: 1.6rem;
+    margin: 20px 0 10px 0;
+    color: #00daff;
+    font-family: Audiowide;
+  }
+
+  #resume-box a:hover {
+    text-decoration: overline underline;
+  }
+
+  #resume-box a #resume-link {
+    margin: 0 0;
+  }
+}
