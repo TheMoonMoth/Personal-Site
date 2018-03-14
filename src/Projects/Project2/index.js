@@ -15,7 +15,7 @@ class Proj2 extends React.Component {
     return (
       <div>
         <section className="project-slide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
-          <img id="sws-logo" style={{width: 70 + "%", paddingBottom: 25 + "px", paddingTop: 30 + "px"}} src="./images/sws-logo.png" alt="Six Word Stories logo"/>
+          <img id="sws-logo" src="./images/sws-logo.png" alt="Six Word Stories logo"/>
           <h3>
             ▼
           </h3>

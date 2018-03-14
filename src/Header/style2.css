@@ -1,8 +1,9 @@
-
+/* Mobile */
+@media (max-width: 740px) {
   #live-header {
-    background: rgba(1,1,53, 1);
+    background: rgba(1, 1, 53, 1);
     width: 100%;
-    height: 90px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -11,10 +12,10 @@
 
   #live-header h2 {
     font-size: 2.1rem;
-    color: #00daff;
+    color: #ffff;
     font-family: "Audiowide";
-    text-align: center;
-    margin-bottom: 5px;
+    text-align: left;
+    margin: 0 0 5px 3.5%;
   }
 
   #nav {
@@ -28,13 +29,13 @@
 
   #nav p {
     text-align: center;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 
   #nav a {
     text-decoration: none;
     transition: all 0.1s;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   #nav p a {
@@ -46,3 +47,57 @@
     border-top: 1px solid #00daff;
     border-bottom: 1px solid #00daff;
   }
+}
+
+
+
+/*Desktop*/
+
+@media (min-width: 741px) {
+  #live-header {
+    background: rgba(1, 1, 53, 1);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 20px 0 0 50px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+  }
+
+  #live-header h2 {
+    font-size: 2.6rem;
+    color: #fff;
+    font-family: "Audiowide";
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-top: 2px solid #00daff;
+    padding-top: 10px;
+  }
+
+  #nav p {
+    text-align: center;
+  }
+
+  #nav a {
+    text-decoration: none;
+    transition: all 0.1s;
+    font-size: 1rem;
+  }
+
+  #nav p a {
+    color: #fff;
+    font-family: Audiowide;
+  }
+
+  #nav p a:hover {
+    border-top: 1px solid #00daff;
+    border-bottom: 1px solid #00daff;
+  }
+}

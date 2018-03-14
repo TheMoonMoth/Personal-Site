@@ -1,17 +1,12 @@
 @media (max-width: 740px) {
-  .project-slide img#pw-logo {
-    margin: 15px 10px 15px 10px;
-    width: 85%;
+  #pw-logo {
+    width: 90%;
   }
-
-
 }
 
-.project-slide h3 {
-  font-family: Audiowide;
-  font-size: .7rem;
-  color: #00daff;
-  -webkit-animation: neon8 3.5s ease-in-out infinite alternate;
-  -moz-animation: neon8 3.5s ease-in-out infinite alternate;
-  animation: neon8 3.5s ease-in-out infinite alternate;
+@media (min-width: 741px) {
+  #pw-logo {
+    width: 120%;
+    margin-bottom: 5px;
+  }
 }

@@ -21,10 +21,12 @@ class Projects extends React.Component {
       <div id="projects-section">
         <a name="projects"> </a>
         <h2>PROJECTS</h2>
-        <Proj1 status={this.state.pwInfo} />
-        <Proj2 status={this.state.swsInfo} />
-        <Proj3 status={this.state.absInfo} />
-        <Proj4 status={this.state.wereInfo} />
+        <section>
+          <Proj1 status={this.state.pwInfo} />
+          <Proj2 status={this.state.swsInfo} />
+          <Proj3 status={this.state.absInfo} />
+          <Proj4 status={this.state.wereInfo} />
+        </section>
       </div>
     )
   }

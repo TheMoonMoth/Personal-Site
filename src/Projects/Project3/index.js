@@ -15,7 +15,7 @@ class Proj3 extends React.Component {
     return (
       <div>
         <section className="project-slide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
-          <img id="abs-logo" style={{width: 50 + "%", paddingBottom: 25 + "px", paddingTop: 30 + "px"}} src="./images/abs-logo.png" alt="Absense logo"/>
+          <img id="abs-logo" src="./images/abs-logo.png" alt="Absense logo"/>
           <h3>
             ▼
           </h3>

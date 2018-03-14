@@ -1,7 +1,12 @@
 @media (max-width: 740px) {
-  .project-slide img#sws-logo {
-    margin: 15px 10px 15px 10px;
-    width: 85%;
+  #sws-logo {
+    width: 90%;
   }
+}
 
+@media (min-width: 741px) {
+  #sws-logo {
+    width: 80%;
+    margin-bottom: 15px;
+  }
 }

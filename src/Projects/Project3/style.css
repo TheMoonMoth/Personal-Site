@@ -1,0 +1,12 @@
+@media (max-width: 740px) {
+  #abs-logo {
+    width: 50%;
+  }
+}
+
+@media (min-width: 741px) {
+  #abs-logo {
+    width: 55%;
+    margin-bottom: 15px;
+  }
+}
