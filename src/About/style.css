@@ -1,10 +1,9 @@
-@media (max-width: 740px) {
+
   #about-page {
     color: #89FFD4;
     padding: 20px 26px 60px 26px;
     height: 100vh;
     background-image:
-      url("../denver_Skyline-mobile-blue.jpeg"),
       linear-gradient(
         0deg,
         rgba(104,128,184, 1) 0%,
@@ -51,4 +50,3 @@
   #about-page li a:hover {
     text-decoration: underline;
   }
-}

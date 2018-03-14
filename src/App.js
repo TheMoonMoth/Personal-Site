@@ -6,6 +6,7 @@ import Header from "./Header"
 import Projects from "./Projects"
 import Resume from "./Resume"
 import About from "./About"
+import Denver from "./Denver"
 import Contact from "./Contact"
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
         <a name="about" id="resume-link"> </a>
           <Header />
           <About />
+          <Denver />
           <Projects />
           <Resume />
           <Contact />

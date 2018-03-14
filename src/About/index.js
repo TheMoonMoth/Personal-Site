@@ -4,7 +4,7 @@ import "./style.css"
 const About = props => {
   return (
     <div id="about-page">
-      <section>
+      <section >
         <h3>I AM A WEB DEVELOPER</h3>
         <ul>
           <li>I build wild new apps.</li>
