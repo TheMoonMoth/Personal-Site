@@ -1,12 +1,11 @@
 @media (max-width: 740px) {
   #were-logo {
-    width: 65%;
+    width: 55%;
   }
 }
 
 @media (min-width: 741px) {
   #were-logo {
-    width: 55%;
     margin-bottom: 20px;
   }
 }

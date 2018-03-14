@@ -14,7 +14,7 @@ class Proj1 extends React.Component {
   render(){
     return (
       <div>
-        <section className="project-slide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
+        <section className="project-slide pwSlide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
           <img id="pw-logo"src="./images/PlanetWagerLogo.png" alt="Planet Wager Logo" />
           <h3>
             ▼
@@ -27,15 +27,6 @@ class Proj1 extends React.Component {
       </div>
     )
   }
-
-
-
-
-
-
-
-  //   )
-  // }
 }
 
 export default Proj1

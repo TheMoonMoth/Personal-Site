@@ -23,8 +23,8 @@ class Projects extends React.Component {
         <h2>PROJECTS</h2>
         <section>
           <Proj1 status={this.state.pwInfo} />
-          <Proj2 status={this.state.swsInfo} />
           <Proj3 status={this.state.absInfo} />
+          <Proj2 status={this.state.swsInfo} />
           <Proj4 status={this.state.wereInfo} />
         </section>
       </div>

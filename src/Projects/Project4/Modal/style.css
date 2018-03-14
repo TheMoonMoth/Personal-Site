@@ -25,7 +25,7 @@
     font-size: 1.3rem;
     margin-bottom: 10px;
     font-family: Audiowide;
-    color: #00daff;
+    color: #fff;
     text-align: center;
   }
 
@@ -34,15 +34,16 @@
     font-size: 1.1rem;
     margin-bottom: 10px;
     font-family: Audiowide;
-    color: #00daff;
+    color: #fff;
     text-align: center;
   }
 
   .ReactCollapse--collapse #wereInfo p {
     font-family: Audiowide;
     font-size: 0.9rem;
-    letter-spacing: 0.7px;
-    color: #00daff;
+    letter-spacing: 0.3px;
+    line-height: 1.3rem;
+    color: #fff;
     text-align: center;
     margin: 0 10px;
   }
@@ -58,10 +59,10 @@
     width: 80%;
     height: 35px;
 
-    font-family: Audiowide;
+    font-family: "Roboto Mono";
     font-size: 0.9rem;
     letter-spacing: 0.7px;
-    color: #00daff;
+    color: #fff;
     text-align: center;
     margin: 0 10px;
   }
