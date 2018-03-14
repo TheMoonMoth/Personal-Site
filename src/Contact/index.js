@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "../Footer"
 import "./style.css"
 
 const Contact = props => {
@@ -22,6 +23,7 @@ const Contact = props => {
           <img src="./images/email.png" alt="Email link" />
         </a>
       </nav>
+      <Footer />
     </footer>
   )
 }
