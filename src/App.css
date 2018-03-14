@@ -1,29 +1,27 @@
 html {
-  background-color: hsl(0,0%,2%);
-  color: white
+  background-color: rgba(1, 1, 53, 1);
+  color: white;
 }
 
+@media (max-width: 740px) {
+  /* .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+}
 /*
 @media (min-width: 30em) and (orientation: landscape) { ... }
 @media screen and (min-width: 30em) and (orientation: landscape) { ... }
 */
 
-
 @-webkit-keyframes neon9 {
   from {
-    text-shadow:
-      0 0 10px #fff,
-      0 0 27px #fff,
-      0 0 20px #fff,
-      0 0 25px #fff,
+    text-shadow: 0 0 10px #fff, 0 0 27px #fff, 0 0 20px #fff, 0 0 25px #fff,
       0 0 37px #fff;
   }
   to {
-    text-shadow:
-      0 0 10px #fff,
-      0 0 27px #fff,
-      0 0 20px #fff,
-      0 0 25px #fff,
+    text-shadow: 0 0 10px #fff, 0 0 27px #fff, 0 0 20px #fff, 0 0 25px #fff,
       0 0 37px #fff;
   }
 }

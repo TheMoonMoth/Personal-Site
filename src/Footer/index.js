@@ -1,8 +1,9 @@
 import React from "react"
+import "./style.css"
 
 const Footer = (props) => {
   return(
-    <p>footer stuff</p>
+    <small>&copy; 2018 Kyle Weintraub</small>
   )
 }
 

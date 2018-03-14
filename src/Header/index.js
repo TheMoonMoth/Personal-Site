@@ -4,10 +4,7 @@ import "./style2.css"
 
 const Header = props => {
   return (
-    <Headroom
-      onPin={() => console.log("pinned")}
-      onUnpin={() => console.log("unpinned")}
-    >
+    <Headroom>
     <div id="live-header">
       <h2>
         KYLE WEINTRAUB

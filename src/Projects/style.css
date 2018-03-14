@@ -19,11 +19,11 @@
   font-family: Audiowide;
   font-size: 2rem;
   margin: 10px 0 20px 0;
-  color: #89FFB1;
+  color: #fff;
   -webkit-animation: neon7 3.5s ease-in-out infinite alternate;
   -moz-animation: neon7 3.5s ease-in-out infinite alternate;
   animation: neon7 3.5s ease-in-out infinite alternate;
-  text-decoration: underline;
+  text-decoration: underline overline;
 }
 
 #projects-section section div {
@@ -39,16 +39,16 @@
   justify-content: center;
 }
 
-.collapser {
-  border: 2px solid green;
+.project-slide:hover {
+  cursor: pointer;
 }
 
 @-webkit-keyframes neon8 {
   from {
     text-shadow:
-      0 0 3px #0000a4,
-      0 0 10px #0000a4,
-      0 0 15px #0000a4,
+      0 0 3px rgba(0,0,164, 1),
+      0 0 10px rgba(0,0,164, 1),
+      0 0 15px rgba(0,0,164, 1),
 
       0 0 10px #FFA0B6,
       0 0 17px #FFA0B6,

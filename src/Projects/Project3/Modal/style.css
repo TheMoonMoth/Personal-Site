@@ -74,10 +74,11 @@
   }
 
   .ReactCollapse--collapse #absInfo #links a {
-    color: #00daff;
     font-family: Audiowide;
-    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
-    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
-    animation: neon6 3.5s ease-in-out infinite alternate;
+    color: #00daff;
+  }
+
+  .ReactCollapse--collapse #absInfo #links a:hover {
+    text-decoration: overline underline;
   }
 }

@@ -4,7 +4,7 @@ import "./App.css"
 import Header from "./Header"
 // import Banner from "./UnderConstruction"
 import Projects from "./Projects"
-// import Footer from "./Footer"
+import Footer from "./Footer"
 import Resume from "./Resume"
 import About from "./About"
 import Contact from "./Contact"
@@ -31,6 +31,7 @@ class App extends React.Component {
           <Projects />
           <Resume />
           <Contact />
+          <Footer />
         </div>
       </Router>
     )

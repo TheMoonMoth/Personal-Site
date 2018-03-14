@@ -10,7 +10,6 @@
 .project-slide h3 {
   font-family: Audiowide;
   font-size: .7rem;
-  cursor: pointer;
   color: #00daff;
   -webkit-animation: neon8 3.5s ease-in-out infinite alternate;
   -moz-animation: neon8 3.5s ease-in-out infinite alternate;

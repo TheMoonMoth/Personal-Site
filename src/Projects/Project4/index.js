@@ -14,9 +14,9 @@ class Proj4 extends React.Component {
   render(){
     return (
       <div>
-        <section className="project-slide">
+        <section className="project-slide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
           <img id="were-logo" style={{width: 60 + "%", paddingBottom: 25 + "px", paddingTop: 30 + "px"}} src="./images/were-logo.png" alt="Weredar logo"/>
-          <h3 onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}} >
+          <h3>
             ▼
           </h3>
         </section>

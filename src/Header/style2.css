@@ -1,14 +1,6 @@
 @media (max-width: 740px) {
   #live-header {
-    background: repeating-linear-gradient(
-      65deg,
-      hsl(0,0%,0%) 0%,
-      hsl(0,0%,10%) 27%,
-      hsl(0,0%,50%) 37%,
-      hsl(0,0%,20%) 37%,
-      hsl(0,0%,5%) 67%,
-      hsl(0,0%,5%) 100%
-      );
+    background: rgba(1,1,53, 1);
     width: 100%;
     height: 90px;
     display: flex;
@@ -18,30 +10,19 @@
   }
 
   #live-header h2 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: #00daff;
     font-family: "Audiowide";
-    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
-    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
-    animation: neon6 3.5s ease-in-out infinite alternate;
     text-align: center;
-  }
-
-  #live-header h3 {
-    padding: 5px 0;
-    color: #89FFB1;
-    font-family: "Audiowide";
-    text-decoration: none;
-    font-size: 1.1rem;
-    text-align: center;
-    text-decoration: underline;
+    margin-bottom: 5px;
   }
 
   #nav {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    padding-top: 5px;
+    border-top: 2px solid #00daff;
+    padding-top: 10px;
     align-self: center;
   }
 
@@ -52,8 +33,6 @@
 
   #nav a {
     text-decoration: none;
-    -webkit-transition: all 0.1s;
-    -moz-transition: all 0.1s;
     transition: all 0.1s;
     font-size: .7rem;
   }
@@ -61,17 +40,11 @@
   #nav p a {
     color: #00daff;
     font-family: Audiowide;
-    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
-    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
-    animation: neon6 3.5s ease-in-out infinite alternate;
   }
 
   #nav p a:hover {
-    color: #00daff;
-    font-family: Audiowide;
-    -webkit-animation: neon1 0.3s ease-in-out infinite alternate;
-    -moz-animation: neon1 0.3s ease-in-out infinite alternate;
-    animation: neon1 0.3s ease-in-out infinite alternate;
+    border-top: 1px solid #00daff;
+    border-bottom: 1px solid #00daff;
   }
 }
 

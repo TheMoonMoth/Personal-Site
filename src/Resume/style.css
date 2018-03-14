@@ -1,15 +1,14 @@
 @media (max-width: 740px) {
   #resume-box {
-    /* background: #2B0000; */
-    background: repeating-linear-gradient(
-      295deg,
-      #2B0000 10%,
-      #942F2C 48%,
-      #FF504D 52%,
-      #942F2C 52%,
-      #2B0000 62%,
-      #2B0000 100%
-      );
+    background:
+      linear-gradient(
+        0deg,
+        rgba(1,1,53, 1) 0%,
+        rgba(1,1,53, 1) 20%,
+        rgba(68,113,184, 1) 70%,
+        rgba(104,128,184, 1) 80%,
+        rgba(104,128,184, 1) 90%
+        );
     width: 95%;
     padding: 10px;
     display: flex;
@@ -19,25 +18,24 @@
 
   #resume-box img{
     width: 75%;
-    box-shadow:
-      0 0 40px -5px #FF504D;
   }
 
   #resume-box h2 {
     font-family: Audiowide;
     font-size: 2rem;
     margin: 10px 0 0 0;
-    color: #89FFB1;
-    text-decoration: underline;
+    color: #fff;
+    text-decoration: underline overline;
   }
 
   #resume-box a {
     margin: 20px 0 10px 0;
     color: #00daff;
     font-family: Audiowide;
-    -webkit-animation: neon6 3.5s ease-in-out infinite alternate;
-    -moz-animation: neon6 3.5s ease-in-out infinite alternate;
-    animation: neon6 3.5s ease-in-out infinite alternate;
+  }
+
+  #resume-box a:hover {
+    text-decoration: overline underline;
   }
 
   #resume-box a #resume-link {
