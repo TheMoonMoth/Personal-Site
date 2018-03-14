@@ -73,86 +73,114 @@
     color: #00daff;
   }
 
+  .ReactCollapse--content #pwInfo h3 {
+    font-family: Audiowide;
+    font-size: 0.7rem;
+    color: #00daff;
+    -webkit-animation: neon8 3.5s ease-in-out infinite alternate;
+    -moz-animation: neon8 3.5s ease-in-out infinite alternate;
+    animation: neon8 3.5s ease-in-out infinite alternate;
+  }
+
   .ReactCollapse--collapse #pwInfo #links a:hover {
     text-decoration: overline underline;
   }
 }
 
 @media (min-width: 741px) {
-  .ReactCollapse--collapse #pwInfo {
+  .ReactCollapse--content #pwInfo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px auto 20px auto;
+    margin-bottom: 50px;
+  }
+
+  .ReactCollapse--content .screens img {
+      height: 400px;
+      border-radius: 10px;
+  }
+
+  .ReactCollapse--content .screens {
+    margin: 30px 0;
+    height: auto;
+    align-self: center;
     width: 45%;
+    display: flex;
+    justify-content: space-around;
   }
 
-  .ReactCollapse--collapse #pwInfo img {
-    margin: 20px 0 20px 20px;
-    width: 40%;
-    border-radius: 10px;
-    background-color: rgba(100, 255, 100, 0.1);
-  }
-
-  .ReactCollapse--collapse #pwInfo h4 {
+  .ReactCollapse--content #pwInfo h4 {
     text-decoration: underline;
     font-size: 1.3rem;
     margin-bottom: 10px;
     font-family: Audiowide;
-    color: #00daff;
+    color: #fff;
     text-align: center;
   }
 
-  .ReactCollapse--collapse #pwInfo h5 {
+  .ReactCollapse--content #pwInfo h5 {
     text-decoration: underline;
     font-size: 1.1rem;
     margin-bottom: 10px;
     font-family: Audiowide;
-    color: #00daff;
+    color: #fff;
     text-align: center;
   }
 
-  .ReactCollapse--collapse #pwInfo p {
-    font-family: Audiowide;
+  .ReactCollapse--content #pwInfo p {
+    width: 45%;
+    font-family: "Roboto Mono";
     font-size: 0.9rem;
-    letter-spacing: 0.7px;
-    color: #00daff;
+    letter-spacing: 0.3px;
+    line-height: 1.3rem;
+    color: #fff;
     text-align: center;
     margin: 0 10px;
   }
 
-  .ReactCollapse--collapse #pwInfo ul {
-    list-style: disc;
+  .ReactCollapse--content #pwInfo ul {
+    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 45px;
     text-align: left;
     flex-wrap: wrap;
-    width: 80%;
+    width: 45%;
     height: 35px;
 
-    font-family: Audiowide;
+    font-family: "Roboto Mono";
     font-size: 0.9rem;
-    letter-spacing: 0.7px;
-    color: #00daff;
+    letter-spacing: 0.3px;
+    line-height: 1.3rem;
+    color: #fff;
     text-align: center;
     margin: 0 10px;
   }
 
-  .ReactCollapse--collapse #pwInfo #links {
-    width: 90%;
-    padding: 25px 20px 0 20px;
+  .ReactCollapse--content #pwInfo #links {
+    width: 45%;
+    padding: 25px 00px 0 00px;
     display: flex;
     justify-content: space-between;
   }
 
-  .ReactCollapse--collapse #pwInfo #links a {
+  .ReactCollapse--content #pwInfo #links a {
     font-family: Audiowide;
     color: #00daff;
   }
 
-  .ReactCollapse--collapse #pwInfo #links a:hover {
+  .ReactCollapse--content #pwInfo #links a:hover {
     text-decoration: overline underline;
+  }
+
+  .ReactCollapse--content #pwInfo h3 {
+    font-family: Audiowide;
+    font-size: 0.7rem;
+    color: #00daff;
+    -webkit-animation: neon8 3.5s ease-in-out infinite alternate;
+    -moz-animation: neon8 3.5s ease-in-out infinite alternate;
+    animation: neon8 3.5s ease-in-out infinite alternate;
+    cursor: pointer;
   }
 }

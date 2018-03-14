@@ -1,12 +1,11 @@
 @media (max-width: 740px) {
   #pw-logo {
-    width: 90%;
+    width: 80%;
   }
 }
 
 @media (min-width: 741px) {
   #pw-logo {
-    height: 50%;
     margin-bottom: 5px;
   }
 }

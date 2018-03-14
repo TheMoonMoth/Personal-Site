@@ -1,5 +1,5 @@
 @media (max-width: 740px) {
-  .ReactCollapse--collapse #swsInfo {
+  .ReactCollapse--content #swsInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,20 +7,20 @@
     width: 90%;
   }
 
-  .ReactCollapse--collapse #swsInfo .screens {
+  .ReactCollapse--content #swsInfo .screens {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .ReactCollapse--collapse #swsInfo img {
+  .ReactCollapse--content #swsInfo img {
     margin: 20px 0 20px 20px;
     width: 90%;
     border-radius: 10px;
     background-color: rgba(100, 255, 100, 0.1);
   }
 
-  .ReactCollapse--collapse #swsInfo h4 {
+  .ReactCollapse--content #swsInfo h4 {
     text-decoration: underline;
     font-size: 1.3rem;
     margin-bottom: 10px;
@@ -29,7 +29,7 @@
     text-align: center;
   }
 
-  .ReactCollapse--collapse #swsInfo h5 {
+  .ReactCollapse--content #swsInfo h5 {
     text-decoration: underline;
     font-size: 1.1rem;
     margin-bottom: 10px;
@@ -38,7 +38,7 @@
     text-align: center;
   }
 
-  .ReactCollapse--collapse #swsInfo p {
+  .ReactCollapse--content #swsInfo p {
     font-family: "Roboto Mono";
     font-size: 0.9rem;
     letter-spacing: 0.3px;
@@ -48,7 +48,7 @@
     margin: 0 10px;
   }
 
-  .ReactCollapse--collapse #swsInfo ul {
+  .ReactCollapse--content #swsInfo ul {
     list-style: disc;
     display: flex;
     flex-direction: column;
@@ -67,19 +67,19 @@
     margin: 0 10px;
   }
 
-  .ReactCollapse--collapse #swsInfo #links {
+  .ReactCollapse--content #swsInfo #links {
     width: 90%;
     padding: 25px 20px 0 20px;
     display: flex;
     justify-content: space-between;
   }
 
-  .ReactCollapse--collapse #swsInfo #links a {
+  .ReactCollapse--content #swsInfo #links a {
     font-family: Audiowide;
     color: #00daff;
   }
 
-  .ReactCollapse--collapse #swsInfo #links a:hover {
+  .ReactCollapse--content #swsInfo #links a:hover {
     text-decoration: overline underline;
   }
 }

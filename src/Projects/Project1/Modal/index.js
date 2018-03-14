@@ -15,7 +15,7 @@ const PwModal = props => {
         workflow values and a small dedicated team.
       </p>
       <p>&nbsp;</p>
-      <h5>BUILT WITH:</h5>
+      <h5>BUILT WITH</h5>
       <ul>
         <li>React</li>
         <li>PostgresQL</li>
