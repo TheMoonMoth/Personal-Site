@@ -83,3 +83,89 @@
     text-decoration: overline underline;
   }
 }
+
+@media (min-width: 741px) {
+  .ReactCollapse--collapse #wereInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto 20px auto;
+    width: 90%;
+  }
+
+  .ReactCollapse--collapse #wereInfo .screens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ReactCollapse--collapse #wereInfo img {
+    margin: 20px 0 20px 0;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgba(100, 255, 100, 0.1);
+  }
+
+  .ReactCollapse--collapse #wereInfo h4 {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-family: Audiowide;
+    color: #fff;
+    text-align: center;
+  }
+
+  .ReactCollapse--collapse #wereInfo h5 {
+    text-decoration: underline;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: Audiowide;
+    color: #fff;
+    text-align: center;
+  }
+
+  .ReactCollapse--collapse #wereInfo p {
+    font-family: Audiowide;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    line-height: 1.3rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .ReactCollapse--collapse #wereInfo ul {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 45px;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 35px;
+
+    font-family: "Roboto Mono";
+    font-size: 0.9rem;
+    letter-spacing: 0.7px;
+    color: #fff;
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  .ReactCollapse--collapse #wereInfo #links {
+    width: 90%;
+    padding: 25px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ReactCollapse--collapse #wereInfo #links a {
+    font-family: Audiowide;
+    color: #00daff;
+  }
+
+  .ReactCollapse--collapse #wereInfo #links a:hover {
+    text-decoration: overline underline;
+  }
+}

@@ -95,12 +95,12 @@
     margin-bottom: 50px;
   }
 
-  .ReactCollapse--content .screens img {
+  .ReactCollapse--content #pwInfo .screens img {
       height: 400px;
       border-radius: 10px;
   }
 
-  .ReactCollapse--content .screens {
+  .ReactCollapse--content #pwInfo .screens {
     margin: 30px 0;
     height: auto;
     align-self: center;
