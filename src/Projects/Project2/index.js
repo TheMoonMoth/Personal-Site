@@ -16,8 +16,11 @@ class Proj2 extends React.Component {
       <div>
         <section className="project-slide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
           <img id="sws-logo" src="./images/sws-logo.png" alt="Six Word Stories logo"/>
-          <h3>
+          <h3 className={this.state.isOpened ? "hidden" : ""}>
             ▼
+          </h3>
+          <h3 className={!this.state.isOpened ? "hidden" : ""}>
+            ▲
           </h3>
         </section>
 

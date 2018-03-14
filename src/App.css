@@ -2,3 +2,7 @@ html {
   background-color: rgba(1, 1, 53, 1);
   color: white;
 }
+
+.hidden {
+  display: none;
+}

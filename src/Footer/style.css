@@ -1,7 +1,45 @@
-small {
-  align-self: center;
-  font-family: "Roboto Mono";
-  letter-spacing: .7px;
-  font-size: .8rem;
-  margin-bottom: 20px;
+@media (max-width: 740px) {
+  #footerator {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footerator img{
+    width: 25%;
+    filter: invert(1);
+    margin-bottom: 5px;
+  }
+
+  #footerator small {
+    align-self: center;
+    font-family: "Roboto Mono";
+    letter-spacing: .7px;
+    font-size: .8rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 741px) {
+  #footerator {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footerator img{
+    width: 10%;
+    filter: invert(1);
+    margin-bottom: 5px;
+  }
+
+  #footerator small {
+    align-self: center;
+    font-family: "Roboto Mono";
+    letter-spacing: .7px;
+    font-size: .8rem;
+    margin-bottom: 20px;
+  }
 }

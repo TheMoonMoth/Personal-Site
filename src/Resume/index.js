@@ -21,7 +21,7 @@ class Resume extends React.Component {
               <li>- Experience With Instructional Design</li>
               <li>- Project and Team Focused</li>
             </ul>
-            <a href="https://drive.google.com/uc?export=download&id=1tKx-S8wpbisEUi1lnn67u9pojHMF_SAP">
+            <a href="https://drive.google.com/uc?export=download&id=165AbmEuJKg3loobHy0TE7EpSVCCRn97D">
             DOWNLOAD NOW
             </a>
             </div>

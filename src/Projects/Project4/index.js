@@ -16,8 +16,11 @@ class Proj4 extends React.Component {
       <div>
         <section className="project-slide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
           <img id="were-logo" src="./images/were-logo.png" alt="Weredar logo"/>
-          <h3>
+          <h3 className={this.state.isOpened ? "hidden" : ""}>
             ▼
+          </h3>
+          <h3 className={!this.state.isOpened ? "hidden" : ""}>
+            ▲
           </h3>
         </section>
 

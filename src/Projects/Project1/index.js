@@ -16,8 +16,11 @@ class Proj1 extends React.Component {
       <div>
         <section className="project-slide pwSlide" onClick={(e)=>{this.setState({ isOpened: !this.state.isOpened })}}>
           <img id="pw-logo"src="./images/PlanetWagerLogo.png" alt="Planet Wager Logo" />
-          <h3>
+          <h3 className={this.state.isOpened ? "hidden" : ""}>
             ▼
+          </h3>
+          <h3 className={!this.state.isOpened ? "hidden" : ""}>
+            ▲
           </h3>
         </section>
 
