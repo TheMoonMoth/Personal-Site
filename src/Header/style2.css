@@ -4,7 +4,7 @@
   #live-header {
     background: rgba(1, 1, 53, 1);
     width: 100%;
-    height: 100px;
+    height: 110px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -16,7 +16,7 @@
     color: #ffff;
     font-family: "Audiowide";
     text-align: left;
-    margin: 0 0 5px 3.5%;
+    margin: 0 0 5px 25px;
   }
 
   #live-header a {
@@ -25,8 +25,8 @@
 
   #nav {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
+    justify-content: flex-start;
+    width: 91%;
     border-top: 2px solid #00daff;
     padding-top: 10px;
     align-self: center;
@@ -41,6 +41,7 @@
     text-decoration: none;
     transition: all 0.1s;
     font-size: 0.7rem;
+    margin-right: 35px;
   }
 
   #nav p a {
@@ -78,9 +79,13 @@
     margin-bottom: 5px;
   }
 
+  #live-header a {
+    text-decoration: none;
+  }
+
   #nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 90%;
     border-top: 2px solid #00daff;
     padding-top: 10px;
@@ -94,6 +99,7 @@
     text-decoration: none;
     transition: all 0.1s;
     font-size: 1rem;
+    margin-right: 33px;
   }
 
   #nav p a {
