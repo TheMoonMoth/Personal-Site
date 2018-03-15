@@ -1,3 +1,4 @@
+
 /* Mobile */
 @media (max-width: 740px) {
   #live-header {
@@ -16,6 +17,10 @@
     font-family: "Audiowide";
     text-align: left;
     margin: 0 0 5px 3.5%;
+  }
+
+  #live-header a {
+    text-decoration: none;
   }
 
   #nav {
@@ -39,7 +44,7 @@
   }
 
   #nav p a {
-    color: #00daff;
+    color: #fff;
     font-family: Audiowide;
   }
 
