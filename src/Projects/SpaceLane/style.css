@@ -1,0 +1,12 @@
+@media (max-width: 740px) {
+  #sl-logo {
+    width: 55%;
+  }
+}
+
+@media (min-width: 741px) {
+  #sl-logo {
+    margin-bottom: 20px;
+    width: 450px;
+  }
+}

@@ -3,6 +3,8 @@ import Proj1 from "./Project1"
 import Proj2 from "./Project2"
 import Proj3 from "./Project3"
 import Proj4 from "./Project4"
+import SpaceLane from "./SpaceLane"
+
 import "./style.css"
 
 class Projects extends React.Component {
@@ -12,7 +14,8 @@ class Projects extends React.Component {
       pwInfo: false,
       swsInfo: false,
       absInfo: false,
-      wereInfo: false
+      wereInfo: false,
+      slInfo: false
     }
   }
 
@@ -22,6 +25,7 @@ class Projects extends React.Component {
         <a name="projects"> </a>
         <h2>PROJECTS</h2>
         <section>
+          <SpaceLane status={this.state.slInfo} />
           <Proj1 status={this.state.pwInfo} />
           <Proj3 status={this.state.absInfo} />
           <Proj2 status={this.state.swsInfo} />
