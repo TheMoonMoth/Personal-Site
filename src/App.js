@@ -25,7 +25,7 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-        <a name="about" id="resume-link"> </a>
+        <a name="about" id="resume-link"> </a> {/* eslint-disable-line */}
           <Header />
           <About />
           <Denver />

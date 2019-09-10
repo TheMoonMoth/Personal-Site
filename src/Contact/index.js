@@ -5,7 +5,7 @@ import "./style.css"
 const Contact = props => {
   return (
     <footer>
-      <a name="contact" id="resume-link">
+      <a name="contact" id="resume-link"> {/* eslint-disable-line */}
         {" "}
       </a>
       <h2>CONTACT</h2>

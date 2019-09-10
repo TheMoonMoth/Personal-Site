@@ -5,12 +5,12 @@ class Resume extends React.Component {
   render() {
     return (
       <div id="resume-box">
-        <a name="resume" id="resume-link">
+        <a name="resume" id="resume-link"> {/* eslint-disable-line */}
           {" "}
         </a>
         <h2>RESUME</h2>
         <aside>
-          <a href="./images/resume.jpg" target="_blank" ><img src="./images/resume.jpg" alt="resume" /></a>
+          <a href="./images/resume.jpg" target="_blank" ><img src="./images/resume.jpg" alt="resume" /></a> 
           <div>
             <ul>
               <li>

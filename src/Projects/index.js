@@ -22,7 +22,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div id="projects-section">
-        <a name="projects"> </a>
+        <a name="projects"> </a> {/* eslint-disable-line */}
         <h2>PROJECTS</h2>
         <section>
           <SpaceLane status={this.state.slInfo} />
