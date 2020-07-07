@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "npm": "^6.11.3",
+    "npm": "^6.14.6",
     "react": "^16.2.0",
     "react-collapse": "^4.0.3",
     "react-dom": "^16.2.0",
